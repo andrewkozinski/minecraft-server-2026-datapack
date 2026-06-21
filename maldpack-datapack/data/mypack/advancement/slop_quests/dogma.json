@@ -1,0 +1,33 @@
+{
+  "parent": "mypack:slop_quests/root",
+  "criteria": {
+    "enter_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "mypack:dogma"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_spear"
+    },
+    "title": {
+      "text": "Human Instrumentality"
+    },
+    "description": {
+      "text": "They create me as I create them."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  }
+}
