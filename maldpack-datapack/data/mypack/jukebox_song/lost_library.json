@@ -1,11 +1,11 @@
 {
   "sound_event": {
-    "sound_id": "mypack:music_disc.by_your_side"
+    "sound_id": "mypack:music_disc.lost_library"
   },
   "description": {
     "text": "OMORI - Lost Library",
     "color": "gray"
   },
-  "length_in_seconds": 76,
+  "length_in_seconds": 75,
   "comparator_output": 10
 }
