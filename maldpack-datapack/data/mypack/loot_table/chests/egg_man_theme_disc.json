@@ -12,7 +12,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": { "text": "Man.ogg", "color": "gold", "italic": false },
+                "minecraft:item_name": { "text": "Music Disc..?", "color": "yellow", "italic": false },
                 "minecraft:jukebox_playable": "mypack:egg_man_theme",
                 "minecraft:lore": [
                   { "text": "Well, there was a song here.", "color": "gray", "italic": false }

@@ -12,7 +12,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": { "text": "Ruins", "color": "aqua", "italic": false },
+                "minecraft:item_name": { "text": "Music Disc", "color": "yellow", "italic": false },
                 "minecraft:jukebox_playable": "mypack:ruins",
                 "minecraft:rarity": "rare"
               }
@@ -40,7 +40,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": { "text": "TV WORLD", "color": "aqua", "italic": false },
+                "minecraft:item_name": { "text": "Music Disc", "color": "yellow", "italic": false },
                 "minecraft:jukebox_playable": "mypack:tv_world",
                 "minecraft:rarity": "rare"
               }

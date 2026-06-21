@@ -11,7 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": { "text": "By Your Side.", "color": "aqua", "italic": false },
+                "minecraft:item_name": { "text": "Music Disc", "color": "yellow", "italic": false },
                 "minecraft:jukebox_playable": "mypack:by_your_side",
                 "minecraft:rarity": "rare"
               }
