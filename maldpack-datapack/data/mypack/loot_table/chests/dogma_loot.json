@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_5",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Komm Süsser Tod", "color": "aqua", "italic": false },
+                "minecraft:jukebox_playable": "mypack:komm_susser_tod",
+                "minecraft:lore": [
+                  { "text": "I wish I could turn back time...", "color": "gray", "italic": false }
+                ],
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_spear",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Spear of Longinus", "color": "red", "italic": false },
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 6,
+                  "minecraft:lunge": 3,
+                  "minecraft:unbreaking": 3,
+                  "minecraft:knockback": 2
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

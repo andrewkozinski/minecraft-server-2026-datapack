@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": "minecraft:nether_wastes",
   "step": "underground_structures",
   "spawn_overrides": {},
   "start_pool": "mypack:dogma/start_pool",
