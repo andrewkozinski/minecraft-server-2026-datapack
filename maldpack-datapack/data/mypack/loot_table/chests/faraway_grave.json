@@ -6,14 +6,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_mall",
+          "name": "minecraft:music_disc_stal",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": { "text": "By Your Side.", "color": "aqua", "italic": false },
-                "minecraft:jukebox_playable": "mypack:by_your_side",
+                "minecraft:item_name": { "text": "Lost Library", "color": "aqua", "italic": false },
+                "minecraft:jukebox_playable": "mypack:lost_library",
                 "minecraft:rarity": "rare"
               }
             }
