@@ -54,5 +54,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.by_your_side": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/omori_by_your_side",
+        "stream": true
+      }
+    ]
   }
 }
