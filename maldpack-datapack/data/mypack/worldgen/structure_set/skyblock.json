@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "mypack:skyblock",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 85,
+    "separation": 15,
+    "spread_type": "linear",
+    "salt": 123456789,
+    "frequency": 0.1
+  }
+}
