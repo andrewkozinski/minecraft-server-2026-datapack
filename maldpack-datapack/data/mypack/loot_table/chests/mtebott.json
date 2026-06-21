@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_mellohi",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Ruins", "color": "aqua", "italic": false },
+                "minecraft:jukebox_playable": "mypack:ruins",
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "rolls": 6,
+        "entries": [
+            { "type": "minecraft:item", "name": "minecraft:golden_dandelion", "weight": 10 },
+            { "type": "minecraft:item", "name": "minecraft:dandelion", "weight": 10 }
+        ]
+    }
+    ,
+    {
+      "rolls": { "min": 0, "max": 1 },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_chirp",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "TV WORLD", "color": "aqua", "italic": false },
+                "minecraft:jukebox_playable": "mypack:tv_world",
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.50 }
+      ]
+    }
+  ]
+}
