@@ -1,0 +1,58 @@
+{
+  "music_disc.egg_man_theme": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/egg_man_theme",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.ruins_theme": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/ruins",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.white_space": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/white_space",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.tv_world": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/tv_world",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.p6_official": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/p6_official",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.komm_susser_tod": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/komm_susser_tod",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.backrooms": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/backrooms_ambience",
+        "stream": true
+      }
+    ]
+  }
+}

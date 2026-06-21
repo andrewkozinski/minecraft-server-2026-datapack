@@ -1,0 +1,11 @@
+{
+  "sound_event": {
+    "sound_id": "mypack:music_disc.tv_world"
+  },
+  "description": {
+    "text": "Toby Fox - TV WORLD",
+    "color": "aqua"
+  },
+  "length_in_seconds": 132.8878,
+  "comparator_output": 12
+}

@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "enter_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "mypack:egg_tree"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mypack:enter_egg"
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:cherry_sapling",
+      "id": "minecraft:cherry_sapling"
+    },
+    "title": {
+      "text": "Discovery Without Issue"
+    },
+    "description": {
+      "text": "Well, there was a structure here."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  }
+}

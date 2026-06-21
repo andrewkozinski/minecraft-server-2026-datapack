@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_strad",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Man.ogg", "color": "gold", "italic": false },
+                "minecraft:jukebox_playable": "mypack:egg_man_theme",
+                "minecraft:lore": [
+                  { "text": "Well, there was a song here.", "color": "gray", "italic": false }
+                ],
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:spawn_eggs",
+          "expand": true
+        }
+      ]
+    }
+  ]
+}

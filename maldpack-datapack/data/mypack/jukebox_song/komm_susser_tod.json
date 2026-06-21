@@ -1,0 +1,11 @@
+{
+  "sound_event": {
+    "sound_id": "mypack:music_disc.komm_susser_tod"
+  },
+  "description": {
+    "text": "Hideaki Anno - Komm Susser Tod",
+    "color": "aqua"
+  },
+  "length_in_seconds": 41,
+  "comparator_output": 12
+}

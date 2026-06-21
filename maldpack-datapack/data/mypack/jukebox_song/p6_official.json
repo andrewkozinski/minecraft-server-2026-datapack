@@ -1,0 +1,11 @@
+{
+  "sound_event": {
+    "sound_id": "mypack:music_disc.p6_official"
+  },
+  "description": {
+    "text": "??? - THE OFFICIAL PERSONA 6 TITLE SCREEN SONG",
+    "color": "aqua"
+  },
+  "length_in_seconds": 135,
+  "comparator_output": 12
+}

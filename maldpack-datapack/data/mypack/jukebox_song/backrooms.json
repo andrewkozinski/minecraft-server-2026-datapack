@@ -1,0 +1,11 @@
+{
+  "sound_event": {
+    "sound_id": "mypack:music_disc.backrooms"
+  },
+  "description": {
+    "text": "Kane Parsons - Backrooms",
+    "color": "gray"
+  },
+  "length_in_seconds": 658,
+  "comparator_output": 6
+}

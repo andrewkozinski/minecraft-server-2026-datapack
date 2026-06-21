@@ -1,0 +1,1 @@
+playsound mypack:music_disc.egg_man_theme master @s ~ ~ ~ 1 1

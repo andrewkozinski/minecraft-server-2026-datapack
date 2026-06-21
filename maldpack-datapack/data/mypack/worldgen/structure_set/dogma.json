@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "mypack:dogma",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "salt": 941872,
+    "distance": 32,
+    "spread": 3,
+    "count": 6,
+    "preferred_biomes": "minecraft:nether_wastes"
+  }
+}
