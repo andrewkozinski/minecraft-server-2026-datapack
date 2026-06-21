@@ -4,13 +4,13 @@
       "id": "minecraft:test_block",
       "components": {
         "minecraft:block_state": {
-          "state": "start"
+          "mode": "accept"
         }
       }
     },
     "title": "Slop Quests",
     "description": "Important Quests to Complete",
-    "background": "minecraft:block/glass",
+    "background": "minecraft:block/pale_oak_planks",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

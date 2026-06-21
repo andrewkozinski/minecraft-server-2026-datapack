@@ -1,0 +1,33 @@
+{
+  "parent": "mypack:slop_quests/root",
+  "criteria": {
+    "enter_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "mypack:faraway_grave"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:lily_of_the_valley"
+    },
+    "title": {
+      "text": "A Faraway Place"
+    },
+    "description": {
+      "text": "My thoughts will follow you into your dreams."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  }
+}
