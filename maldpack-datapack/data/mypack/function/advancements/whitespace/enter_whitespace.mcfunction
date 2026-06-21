@@ -1,0 +1,1 @@
+playsound mypack:music_disc.white_space master @s ~ ~ ~ 1 1

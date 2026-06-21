@@ -13,7 +13,8 @@
     }
   },
   "rewards": {
-    "experience": 100
+    "experience": 100,
+    "function": "mypack:advancements/whitespace/enter_whitespace"
   },
   "display": {
     "icon": {
