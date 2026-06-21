@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:test_block",
+      "components": {
+        "minecraft:block_state": {
+          "state": "start"
+        }
+      }
+    },
+    "title": "Slop Quests",
+    "description": "Important Quests to Complete",
+    "background": "minecraft:block/glass",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

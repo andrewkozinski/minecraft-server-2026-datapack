@@ -1,4 +1,5 @@
 {
+  "parent": "mypack:slop_quests/root",
   "criteria": {
     "enter_structure": {
       "trigger": "minecraft:location",
@@ -12,7 +13,8 @@
     }
   },
   "rewards": {
-    "function": "mypack:enter_egg"
+    "experience": 666,
+    "function": "mypack:advancements/egg_tree/enter_egg"
   },
   "display": {
     "icon": {

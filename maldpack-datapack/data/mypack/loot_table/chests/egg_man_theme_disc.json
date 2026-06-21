@@ -29,7 +29,7 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "name": "minecraft:spawn_eggs",
+          "name": "mypack:spawn_eggs",
           "expand": true
         }
       ]
