@@ -1,0 +1,11 @@
+{
+  "sound_event": {
+    "sound_id": "mypack:music_disc.walk_in_the_woods"
+  },
+  "description": {
+    "text": "Martin O'Donnell, Michael Salvatori - A Walk In The Woods",
+    "color": "gray"
+  },
+  "length_in_seconds": 112,
+  "comparator_output": 7
+}

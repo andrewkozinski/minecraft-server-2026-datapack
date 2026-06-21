@@ -1,0 +1,11 @@
+{
+  "sound_event": {
+    "sound_id": "mypack:music_disc.under_cover_of_night"
+  },
+  "description": {
+    "text": "Martin O'Donnell, Michael Salvatori - Under Cover of Night",
+    "color": "gray"
+  },
+  "length_in_seconds": 221,
+  "comparator_output": 7
+}

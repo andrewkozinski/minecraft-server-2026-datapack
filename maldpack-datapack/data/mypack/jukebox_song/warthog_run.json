@@ -1,0 +1,11 @@
+{
+  "sound_event": {
+    "sound_id": "mypack:music_disc.warthog_run"
+  },
+  "description": {
+    "text": "Martin O'Donnell, Michael Salvatori - One Final Effort",
+    "color": "gray"
+  },
+  "length_in_seconds": 500,
+  "comparator_output": 7
+}

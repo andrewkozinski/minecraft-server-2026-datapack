@@ -1,0 +1,33 @@
+{
+  "parent": "mypack:slop_quests/root",
+  "criteria": {
+    "enter_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "mypack:covenantwt"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "text": "Tell That To The Covenant"
+    },
+    "description": {
+      "text": "Discover a strange tower."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  }
+}
