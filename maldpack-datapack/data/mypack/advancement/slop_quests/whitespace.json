@@ -1,0 +1,33 @@
+{
+  "parent": "mypack:slop_quests/root",
+  "criteria": {
+    "enter_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "mypack:whitespace"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:light"
+    },
+    "title": {
+      "text": "Welcome to White Space."
+    },
+    "description": {
+      "text": "You have been living here for as long as you can remember."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  }
+}

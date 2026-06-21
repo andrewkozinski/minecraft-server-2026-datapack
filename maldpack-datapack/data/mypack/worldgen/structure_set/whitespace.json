@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "mypack:whitespace",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 10,
+    "spread_type": "linear",
+    "salt": 123456789,
+    "frequency": 0.2
+  }
+}
