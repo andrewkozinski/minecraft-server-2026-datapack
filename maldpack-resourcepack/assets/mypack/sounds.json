@@ -62,5 +62,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.lost_library": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/lost_library",
+        "stream": true
+      }
+    ]
   }
 }
