@@ -70,5 +70,29 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.walk_in_the_woods": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/a-walk-in-the-woods",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.under_cover_of_night": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/under-cover-of-night",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.warthog_run": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/warthog_run",
+        "stream": true
+      }
+    ]
   }
 }
