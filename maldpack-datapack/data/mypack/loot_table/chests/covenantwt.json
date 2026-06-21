@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_otherside",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Music Disc", "color": "yellow", "italic": false },
+                "minecraft:jukebox_playable": "mypack:under_cover_of_night",
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_ward",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Music Disc", "color": "yellow", "italic": false },
+                "minecraft:jukebox_playable": "mypack:walk_in_the_woods",
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_wait",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Music Disc", "color": "yellow", "italic": false },
+                "minecraft:jukebox_playable": "mypack:warthog_run",
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

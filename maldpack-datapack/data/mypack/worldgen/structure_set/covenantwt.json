@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "mypack:covenantwt",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 8,
+    "spread_type": "linear",
+    "salt": 32132443,
+    "frequency": 0.5
+  }
+}
