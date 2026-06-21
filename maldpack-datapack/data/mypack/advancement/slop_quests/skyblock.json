@@ -6,7 +6,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structures": "mypack:mtebott"
+            "structures": "mypack:skyblock"
           }
         }
       }
@@ -17,13 +17,13 @@
   },
   "display": {
     "icon": {
-      "id": "minecraft:dandelion"
+      "id": "minecraft:grass_block"
     },
     "title": {
-      "text": "Fallen Down"
+      "text": "Above the Clouds"
     },
     "description": {
-      "text": "Fall into the underground."
+      "text": "Discover an island from a simpler time."
     },
     "frame": "challenge",
     "show_toast": true,
