@@ -6,7 +6,7 @@
   "start_pool": "mypack:covenantwt/start_pool",
   "size": 2,
   "start_height": {
-    "absolute": -1
+    "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "max_distance_from_center": 80,
