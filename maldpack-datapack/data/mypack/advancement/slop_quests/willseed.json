@@ -1,0 +1,33 @@
+{
+  "parent": "mypack:slop_quests/root",
+  "criteria": {
+    "enter_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "mypack:willseed"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_cat"
+    },
+    "title": {
+      "text": "Phantom Thief"
+    },
+    "description": {
+      "text": "Steal the greatest treasure of all."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  }
+}
