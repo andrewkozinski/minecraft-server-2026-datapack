@@ -1,0 +1,40 @@
+{
+  "parent": "mypack:slop_quests/root",
+  "criteria": {
+    "killed_by_bartlll": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{CustomName:'{\"text\":\"Bartlll\"}'}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Bartlll"
+        }
+      }
+    },
+    "title": { "text": "How" },
+    "description": { "text": "What if the dog was really good at chess" },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "requirements": [["killed_by_bartlll"]],
+  "rewards": {
+    "experience": 7,
+    "function": "mypack:advancements/egg_tree/enter_egg"
+  }
+}
