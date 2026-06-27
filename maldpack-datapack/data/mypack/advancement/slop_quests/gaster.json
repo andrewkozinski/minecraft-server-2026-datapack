@@ -1,0 +1,34 @@
+{
+  "parent": "mypack:slop_quests/root",
+  "criteria": {
+    "enter_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "mypack:gaster"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 666
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:pale_oak_door",
+      "id": "minecraft:pale_oak_door"
+    },
+    "title": {
+      "text": "Room Inbetween"
+    },
+    "description": {
+      "text": "Discover a strange room."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  }
+}

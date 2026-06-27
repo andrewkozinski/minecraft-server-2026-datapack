@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "mypack:gaster",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 110,
+    "separation": 8,
+    "spread_type": "linear",
+    "salt": 66666666666666,
+    "frequency": 0.6
+  }
+}
