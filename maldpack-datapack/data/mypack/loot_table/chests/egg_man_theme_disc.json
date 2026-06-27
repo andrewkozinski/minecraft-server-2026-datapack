@@ -21,6 +21,42 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_stal",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Music Disc..?", "color": "yellow", "italic": false },
+                "minecraft:jukebox_playable": "mypack:man_2",
+                "minecraft:lore": [
+                  { "text": "Well, there was a song here.", "color": "gray", "italic": false }
+                ],
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_blocks",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Music Disc..?", "color": "yellow", "italic": false },
+                "minecraft:jukebox_playable": "mypack:scarlet_egg",
+                "minecraft:lore": [
+                  { "text": "Well, there was a song here.", "color": "gray", "italic": false }
+                ],
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
         }
       ]
     },

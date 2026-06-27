@@ -1,0 +1,11 @@
+{
+  "sound_event": {
+    "sound_id": "mypack:music_disc.gasters_theme"
+  },
+  "description": {
+    "text": "??? - Gaster's Theme",
+    "color": "gray"
+  },
+  "length_in_seconds": 34,
+  "comparator_output": 6
+}

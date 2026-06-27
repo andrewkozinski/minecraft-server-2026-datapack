@@ -94,5 +94,29 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.man_2": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/man_2",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.gasters_theme": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/gasters_theme",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.scarlet_egg": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/scarlet_egg",
+        "stream": true
+      }
+    ]
   }
 }
