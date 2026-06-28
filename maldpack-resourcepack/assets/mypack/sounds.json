@@ -118,5 +118,21 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.flower_man": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/flower_man",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.cutie_mew_mew_magic": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/cutie_mew_mew_magic",
+        "stream": true
+      }
+    ]
   }
 }

@@ -1,0 +1,11 @@
+{
+  "sound_event": {
+    "sound_id": "mypack:music_disc.cutie_mew_mew_magic"
+  },
+  "description": {
+    "text": "Toby Fox, Camellia - Cutie Mew Mew Magic",
+    "color": "gray"
+  },
+  "length_in_seconds": 184,
+  "comparator_output": 7
+}

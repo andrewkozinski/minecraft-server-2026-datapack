@@ -1,0 +1,11 @@
+{
+  "sound_event": {
+    "sound_id": "mypack:music_disc.flower_man"
+  },
+  "description": {
+    "text": "Toby Fox - Flower Man",
+    "color": "gray"
+  },
+  "length_in_seconds": 192,
+  "comparator_output": 7
+}

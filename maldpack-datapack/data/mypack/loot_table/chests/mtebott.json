@@ -51,6 +51,52 @@
       "conditions": [
         { "condition": "minecraft:random_chance", "chance": 0.50 }
       ]
+    },
+    {
+      "rolls": { "min": 0, "max": 1 },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_bounce",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Music Disc", "color": "yellow", "italic": false },
+                "minecraft:jukebox_playable": "mypack:flower_man",
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.50 }
+      ]
+    },
+    {
+      "rolls": { "min": 0, "max": 1 },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Music Disc", "color": "yellow", "italic": false },
+                "minecraft:jukebox_playable": "mypack:cutie_mew_mew_magic",
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.50 }
+      ]
     }
   ]
 }

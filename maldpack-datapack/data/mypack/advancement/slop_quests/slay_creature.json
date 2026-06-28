@@ -1,0 +1,30 @@
+{
+  "parent": "mypack:slop_quests/segador_facility",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Walrhus"
+        }
+      }
+    },
+    "title": "7 Inch Grave",
+    "description": "Slay the scourge of a Segador Facility.",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_segador": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "minecraft:entity_type": "minecraft:skeleton",
+          "nbt": "{CustomName:'\"Segador Experiment 7\"'}"
+        }
+      }
+    }
+  }
+}
