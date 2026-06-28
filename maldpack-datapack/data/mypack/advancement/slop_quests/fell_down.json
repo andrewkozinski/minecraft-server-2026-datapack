@@ -1,5 +1,5 @@
 {
-  "parent": "mypack:slop_quests/fallen_down",
+  "parent": "mypack:slop_quests/mtebott",
   "criteria": {
     "fall_damage_death": {
       "trigger": "minecraft:entity_hurt_player",
@@ -45,7 +45,7 @@
     "description": {
       "text": "Take a bit of a Weird Route into the Underground."
     },
-    "frame": "challenge",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
