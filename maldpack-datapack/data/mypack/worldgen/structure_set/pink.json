@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "mypack:pink",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 250,
+    "separation": 8,
+    "spread_type": "linear",
+    "salt": 4564029035900921,
+    "frequency": 0.3
+  }
+}

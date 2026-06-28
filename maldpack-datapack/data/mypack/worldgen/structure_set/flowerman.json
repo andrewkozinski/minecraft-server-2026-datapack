@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "mypack:flowerman",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 65,
+    "separation": 8,
+    "spread_type": "linear",
+    "salt": 7777124389,
+    "frequency": 0.3
+  }
+}
