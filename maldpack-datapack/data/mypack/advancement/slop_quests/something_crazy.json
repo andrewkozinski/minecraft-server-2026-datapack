@@ -1,0 +1,52 @@
+{
+  "parent": "mypack:slop_quests/root",
+  "criteria": {
+    "drowning_death": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_drowning",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 666
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "text": "Something Crazy"
+    },
+    "description": {
+      "text": "Drink all the water in the pool"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "drowning_death"
+    ]
+  ]
+}
