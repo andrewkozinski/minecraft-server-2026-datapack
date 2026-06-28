@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "mypack:segador_facility",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 110,
+    "separation": 8,
+    "spread_type": "linear",
+    "salt": 8549287712,
+    "frequency": 0.6
+  }
+}

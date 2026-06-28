@@ -6,7 +6,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structures": "mypack:skyblock"
+            "structures": "mypack:segador_facility"
           }
         }
       }
