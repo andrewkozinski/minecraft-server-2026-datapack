@@ -1,0 +1,36 @@
+{
+  "parent": "mypack:slop_quests/fallen_down",
+  "criteria": {
+    "fall_damage_death": {
+      "trigger": "minecraft:player_killed_by_entity",
+      "conditions": {
+        "killing_blow": {
+          "type": "minecraft:fall"
+        },
+        "player": {
+          "location": {
+            "structures": "mypack:mtebott"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 600
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:ladder"
+    },
+    "title": {
+      "text": "Fell Down"
+    },
+    "description": {
+      "text": "Take a bit of a Weird Route into the Underground."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  }
+}
