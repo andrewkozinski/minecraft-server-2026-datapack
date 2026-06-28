@@ -2,16 +2,33 @@
   "parent": "mypack:slop_quests/fallen_down",
   "criteria": {
     "fall_damage_death": {
-      "trigger": "minecraft:player_killed_by_entity",
+      "trigger": "minecraft:entity_hurt_player",
       "conditions": {
-        "killing_blow": {
-          "type": "minecraft:fall"
-        },
-        "player": {
-          "location": {
-            "structures": "mypack:mtebott"
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_fall",
+                "expected": true
+              }
+            ]
           }
-        }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Health:0f}"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "mypack:mtebott"
+            }
+          }
+        ]
       }
     }
   },

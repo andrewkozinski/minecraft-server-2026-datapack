@@ -6,7 +6,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structures": "mypack:pink"
+            "structures": "mypack:flowerman"
           }
         }
       }
