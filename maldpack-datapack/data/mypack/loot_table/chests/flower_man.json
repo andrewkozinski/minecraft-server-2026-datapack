@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_bounce",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Music Disc", "color": "yellow", "italic": false },
+                "minecraft:jukebox_playable": "mypack:flower_man",
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
