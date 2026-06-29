@@ -11,6 +11,6 @@
     "separation": 15,
     "spread_type": "linear",
     "salt": 123456789,
-    "frequency": 0.1
+    "frequency": 0.6
   }
 }
