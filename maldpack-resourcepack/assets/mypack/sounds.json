@@ -134,5 +134,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.dogcheck": {
+    "sounds": [
+      {
+        "name": "mypack:music_disc/dogcheck",
+        "stream": true
+      }
+    ]
   }
 }

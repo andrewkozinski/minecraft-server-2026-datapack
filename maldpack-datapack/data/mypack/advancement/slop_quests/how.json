@@ -35,6 +35,6 @@
   "requirements": [["killed_by_bartlll"]],
   "rewards": {
     "experience": 7,
-    "function": "mypack:advancements/egg_tree/enter_egg"
+    "function": "mypack:advancements/how/how"
   }
 }

@@ -1,0 +1,1 @@
+playsound mypack:music_disc.dogcheck master @s ~ ~ ~ 1 1
