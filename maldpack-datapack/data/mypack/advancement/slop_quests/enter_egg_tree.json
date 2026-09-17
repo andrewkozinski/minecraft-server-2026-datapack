@@ -5,8 +5,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "structures": "mypack:egg_tree"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "mypack:egg_tree"
+            }
           }
         }
       }

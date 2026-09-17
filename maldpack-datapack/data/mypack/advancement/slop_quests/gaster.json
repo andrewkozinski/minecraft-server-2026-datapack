@@ -5,8 +5,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "structures": "mypack:gaster"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "mypack:gaster"
+            }
           }
         }
       }

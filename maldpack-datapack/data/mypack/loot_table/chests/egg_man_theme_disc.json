@@ -65,7 +65,7 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "name": "mypack:spawn_eggs",
+          "items": "#mypack:spawn_eggs",
           "expand": true
         }
       ]

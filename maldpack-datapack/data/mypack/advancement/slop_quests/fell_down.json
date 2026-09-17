@@ -14,21 +14,24 @@
             ]
           }
         },
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Health:0f}"
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Health:0f}"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "structures": "mypack:mtebott"
+              }
             }
-          },
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "structures": "mypack:mtebott"
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

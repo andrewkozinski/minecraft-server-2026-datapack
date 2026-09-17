@@ -4,15 +4,13 @@
     "killed_by_bartlll": {
       "trigger": "minecraft:entity_killed_player",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"killer_target\"]}"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"killer_target\"]}"
           }
-        ]
+        }
       }
     }
   },
